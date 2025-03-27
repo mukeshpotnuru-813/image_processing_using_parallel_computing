@@ -1,11 +1,11 @@
-# Medical Image Processing with Color Interaction
+# Image Processing with Color Manipulation
 
 ## Overview
-This project processes medical images using color manipulation techniques. The program is written in C and leverages the `stb_image.h` and `stb_image_write.h` libraries for reading and writing images. The core logic is implemented in `medical_image_processing_color_interactive.c`.
+This project processes normal images using color manipulation techniques. The program is written in C and utilizes the `stb_image.h` and `stb_image_write.h` libraries for reading and writing images. The core logic is implemented in `medical_image_processing_color_interactive.c`.
 
 ## Features
-- Load medical images in various formats (JPEG, PNG, etc.).
-- Apply color modifications and enhancements.
+- Load images in various formats (JPEG, PNG, etc.).
+- Apply color transformations and modifications.
 - Save processed images in the desired format.
 - Interactive command-line interface for color adjustments.
 
@@ -18,11 +18,11 @@ To compile and run this project, you need:
 1. Clone the repository or copy the source files.
 2. Compile the C program using:
    ```sh
-   gcc medical_image_processing_color_interactive.c -o medical_processor -lm
+   gcc medical_image_processing_color_interactive.c -o image_processor -lm
    ```
 3. Run the program:
    ```sh
-   ./medical_processor
+   ./image_processor
    ```
 
 ## Usage
